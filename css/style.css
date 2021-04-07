@@ -1,0 +1,45 @@
+.body{
+    background-color: rgb(0, 0, 0);
+
+   
+}
+
+.titulo{
+    height: 15em;
+    vertical-align: middle;
+    padding-top: 6em;
+    
+    background-image: url("img/stars_starry_sky_purple.jpg");
+    background: rgba(0, 0, 255, 0.253);
+}
+
+.container{
+    width: 100%;
+}
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+.videos{
+    border: 2px;
+    background-color: rgba(137, 43, 226, 0.507);
+    padding: 20px;
+    border-radius: 3px;
+    width: 1500px;
+    
+    
+}
+
+.space{
+    margin: 3em;
+}
+
+.music{
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 3px;
+    z-index: -1;
+    
+}
