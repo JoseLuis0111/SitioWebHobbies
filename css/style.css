@@ -6,9 +6,10 @@
 }
 
 .titulo{
-    height: 15em;
+    height: 18em;
     vertical-align: middle;
-    padding-top: 6em;
+    padding-top: 7em;
+    padding-bottom: 2em;
     
     background-image: url("img/stars_starry_sky_purple.jpg");
     background: rgba(0, 0, 255, 0.253);
@@ -29,6 +30,7 @@
     padding: 20px;
     border-radius: 3px;
     width: 1500px;
+    z-index: 5;
     
     
 }
@@ -37,10 +39,27 @@
     margin: 3em;
 }
 
-.music{
-    background-color: blueviolet;
-    padding: 20px;
-    border-radius: 3px;
+.z{
     z-index: -1;
-    
+}
+
+.music{
+    padding: 15px;
+    color: #000;
+    /*background-color: rgba(1, 255, 44, 0.575);*/
+}
+
+.music a{
+    text-decoration:none;
+}
+
+.music:hover{
+    color: mediumaquamarine;
+    background-color: rgba(1, 255, 44, 0.575);
+}
+
+.div_music{
+    padding-bottom: 5em;
+
+
 }
