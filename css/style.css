@@ -1,18 +1,27 @@
 .body{
     background-color: rgb(0, 0, 0);
     font-family: 'Roboto Mono', monospace;
-
-   
+    /*background: url("img/stars_starry_sky_purple.jpg");*/
+    
 }
 
 .titulo{
     height: 18em;
+    /*
     vertical-align: middle;
     padding-top: 7em;
     padding-bottom: 2em;
+    */
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
     
-    background-image: url("img/stars_starry_sky_purple.jpg");
+    background: url("../img/stars_starry_sky_purple.jpg") top center;
+    background-size: cover;
+
     background: rgba(0, 0, 255, 0.253);
+    
 }
 
 .container{
@@ -22,6 +31,10 @@
 * {
     margin:0px;
     padding:0px;
+}
+
+.sports{
+    padding-top: 1em;
 }
 
 .videos{
