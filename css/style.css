@@ -8,7 +8,7 @@
 }
 
 .titulo{
-    height: 18em;
+    height: 16em;
     /*
     vertical-align: middle;
     padding-top: 7em;
@@ -22,7 +22,9 @@
     background: url("../img/stars_starry_sky_purple.jpg") top center;
     background-size: cover;
 
-    background: rgba(0, 0, 255, 0.253);
+    background: rgba(119, 0, 255, 0.253);
+    box-shadow: 0.7px 0.8px 3px rgb(14, 12, 24);
+    text-shadow: 0.7px 0.8px 3px rgb(14, 12, 24);
     
 }
 
@@ -33,6 +35,14 @@
 * {
     margin:0px;
     padding:0px;
+}
+
+.texto{
+    padding-top: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
 }
 
 .sports{
